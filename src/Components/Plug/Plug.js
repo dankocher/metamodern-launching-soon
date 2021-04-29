@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./plug.module.scss";
 
 import metemodernIcon from "../../assets/icons/metemodern-icon";
-import metemodernSmallIcon from "../../assets/icons/metemodern-small-icon";
 
 import cat from "../../assets/images/problemcat.png";
 

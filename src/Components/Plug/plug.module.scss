@@ -22,10 +22,20 @@
             &__info {
                 font-family: "Gilroy-SemiBold";
                 font-weight: 600;
-                font-size: calc(58.4px + 1vw);
-                line-height: 100px;
+                font-size: clamp(
+                    1.875rem,
+                    calc(-1.9862rem + 4.5226vw),
+                    5.25rem
+                );
+                // font-size: calc(58.4px + 1.4vw);
+                // line-height: 100px;
+                line-height: clamp(
+                    2.25rem,
+                    calc(-2.3262rem + 5.3601vw),
+                    6.25rem
+                );
 
-                margin-bottom: 36px;
+                margin-bottom: clamp(1.5rem, calc(0.642rem + 1.005vw), 2.25rem);
 
                 color: #323232;
             }
@@ -35,8 +45,14 @@
                 flex-direction: column;
 
                 font-family: "Gilroy-Regular";
-                font-size: calc(18.4px + 1vw);
-                line-height: 51px;
+                font-size: clamp(1rem, calc(-1.0021rem + 2.3451vw), 2.75rem);
+                line-height: clamp(
+                    1.1875rem,
+                    calc(-1.1006rem + 2.6801vw),
+                    3.1875rem
+                );
+                // font-size: calc(18.4px + 1vw);
+                // line-height: 51px;
 
                 span {
                     color: #6b6b6b;
@@ -68,22 +84,6 @@
     }
 }
 
-@media only screen and (max-width: 1750px) {
-    .content__description {
-        &__info {
-            font-size: calc(16.34px + 1vw) !important;
-            line-height: 36px !important;
-
-            margin-bottom: 24px !important;
-        }
-
-        &__contacts {
-            font-size: calc(2.34px + 1vw) !important;
-            line-height: 19px !important;
-        }
-    }
-}
-
 @media only screen and (max-width: 1200px) {
     .container {
         flex-direction: column;
@@ -108,21 +108,18 @@
                 width: 100%;
                 grid-area: 2;
 
-                &__info {
-                    font-size: 30px !important;
-                }
+                // &__info {
+                //     font-size: 30px !important;
+                // }
 
-                &__contacts {
-                    font-size: 16px !important;
-                }
+                // &__contacts {
+                //     font-size: 16px !important;
+                // }
             }
 
             &__imgContainer {
                 justify-content: center;
-                margin-bottom: auto;
-                img {
-                    height: 184px;
-                }
+                margin-bottom: 44px;
             }
         }
     }
