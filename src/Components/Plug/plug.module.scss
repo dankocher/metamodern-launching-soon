@@ -11,16 +11,13 @@
         width: 74.0849194729%;
         height: 66.24%;
         top: 27.36%;
-        display: flex;
+        display: grid;
+        grid-template-columns: 35.9683794467% 64.0316205533%;
 
         &__description {
             display: flex;
             flex-direction: column;
-            width: 35.9683794467%;
-
-            i {
-                display: none;
-            }
+            // width: 35.9683794467%;
 
             &__info {
                 font-family: "Gilroy-SemiBold";
@@ -54,7 +51,7 @@
 
         &__imgContainer {
             display: flex;
-            width: 64.0316205533%;
+            // width: 64.0316205533%;
 
             img {
                 max-width: 100%;
@@ -89,15 +86,27 @@
 
 @media only screen and (max-width: 1200px) {
     .container {
+        flex-direction: column;
         align-items: center;
+
+        &__topSpaser {
+            flex: 2;
+        }
+
+        &__bottomSpaser {
+            flex: 3;
+        }
 
         .content {
             position: initial;
             width: 360px;
             height: fit-content;
+            grid-template-columns: auto;
+            grid-template-rows: 228px 1fr;
 
             &__description {
                 width: 100%;
+                grid-area: 2;
 
                 &__info {
                     font-size: 30px !important;
@@ -106,21 +115,29 @@
                 &__contacts {
                     font-size: 16px !important;
                 }
-
-                i {
-                    display: block;
-                    align-self: center;
-                    margin-bottom: 64px;
-                }
             }
 
             &__imgContainer {
-                display: none;
+                justify-content: center;
+                margin-bottom: auto;
+                img {
+                    height: 184px;
+                }
             }
         }
+    }
+}
 
+@media only screen and (max-width: 428px) {
+    .container {
         & > i {
-            visibility: hidden;
+            top: 28px;
+            left: 16px;
+
+            svg {
+                height: 36px;
+                width: 36px;
+            }
         }
     }
 }
