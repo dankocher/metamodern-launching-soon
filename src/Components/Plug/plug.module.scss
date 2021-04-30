@@ -12,7 +12,8 @@
         height: 64.6268656717%;
         top: 28.6567164179%;
         display: grid;
-        grid-template-columns: 36.0377358491% 1fr;
+        grid-template-columns: 36.0377358491% 63.9622641509%;
+        grid-template-rows: 100%;
 
         &__description {
             display: flex;
@@ -63,6 +64,7 @@
 
         &__imgContainer {
             display: flex;
+            height: 100%;
 
             img {
                 max-width: 100%;
