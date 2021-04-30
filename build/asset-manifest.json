@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/metamodern-launching-soon/static/css/main.1758b159.chunk.css",
-    "main.js": "/metamodern-launching-soon/static/js/main.ac2cead0.chunk.js",
-    "main.js.map": "/metamodern-launching-soon/static/js/main.ac2cead0.chunk.js.map",
+    "main.css": "/metamodern-launching-soon/static/css/main.e1e623db.chunk.css",
+    "main.js": "/metamodern-launching-soon/static/js/main.466dcab5.chunk.js",
+    "main.js.map": "/metamodern-launching-soon/static/js/main.466dcab5.chunk.js.map",
     "runtime-main.js": "/metamodern-launching-soon/static/js/runtime-main.0ce92581.js",
     "runtime-main.js.map": "/metamodern-launching-soon/static/js/runtime-main.0ce92581.js.map",
     "static/js/2.b8ce70ae.chunk.js": "/metamodern-launching-soon/static/js/2.b8ce70ae.chunk.js",
     "static/js/2.b8ce70ae.chunk.js.map": "/metamodern-launching-soon/static/js/2.b8ce70ae.chunk.js.map",
     "index.html": "/metamodern-launching-soon/index.html",
-    "static/css/main.1758b159.chunk.css.map": "/metamodern-launching-soon/static/css/main.1758b159.chunk.css.map",
+    "static/css/main.e1e623db.chunk.css.map": "/metamodern-launching-soon/static/css/main.e1e623db.chunk.css.map",
     "static/js/2.b8ce70ae.chunk.js.LICENSE.txt": "/metamodern-launching-soon/static/js/2.b8ce70ae.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/metamodern-launching-soon/static/media/Gilroy-SemiBold.67802926.ttf",
     "static/media/problemcat.a2288e4c.png": "/metamodern-launching-soon/static/media/problemcat.a2288e4c.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.0ce92581.js",
     "static/js/2.b8ce70ae.chunk.js",
-    "static/css/main.1758b159.chunk.css",
-    "static/js/main.ac2cead0.chunk.js"
+    "static/css/main.e1e623db.chunk.css",
+    "static/js/main.466dcab5.chunk.js"
   ]
 }
