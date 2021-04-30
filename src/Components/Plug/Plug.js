@@ -13,7 +13,7 @@ function Plug() {
             <div className={styles.content}>
                 <div className={styles.content__description}>
                     <span className={styles.content__description__info}>
-                        We will be launching soon
+                    We will launch soon
                     </span>
 
                     <div className={styles.content__description__contacts}>

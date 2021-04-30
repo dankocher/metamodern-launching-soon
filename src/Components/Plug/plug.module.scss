@@ -17,7 +17,6 @@
         &__description {
             display: flex;
             flex-direction: column;
-            // width: 35.9683794467%;
 
             &__info {
                 font-family: "Gilroy-SemiBold";
@@ -27,8 +26,7 @@
                     calc(-1.9862rem + 4.5226vw),
                     5.25rem
                 );
-                // font-size: calc(58.4px + 1.4vw);
-                // line-height: 100px;
+
                 line-height: clamp(
                     2.25rem,
                     calc(-2.3262rem + 5.3601vw),
@@ -51,8 +49,6 @@
                     calc(-1.1006rem + 2.6801vw),
                     3.1875rem
                 );
-                // font-size: calc(18.4px + 1vw);
-                // line-height: 51px;
 
                 span {
                     color: #6b6b6b;
@@ -67,7 +63,6 @@
 
         &__imgContainer {
             display: flex;
-            // width: 64.0316205533%;
 
             img {
                 max-width: 100%;
@@ -78,9 +73,14 @@
     }
 
     & > i {
+        transition: top 150ms, left 150ms;
         position: absolute;
         top: 40px;
         left: 69px;
+
+        svg {
+            transition: height 150ms, width 150ms;
+        }
     }
 }
 
@@ -99,7 +99,7 @@
 
         .content {
             position: initial;
-            width: 360px;
+            width: 288px;
             height: fit-content;
             grid-template-columns: auto;
             grid-template-rows: 228px 1fr;
@@ -108,13 +108,32 @@
                 width: 100%;
                 grid-area: 2;
 
-                // &__info {
-                //     font-size: 30px !important;
-                // }
+                &__info {
+                    font-size: clamp(
+                        1.375rem,
+                        calc(-0.3271rem + 8.5106vw),
+                        1.875rem
+                    );
+                    line-height: clamp(
+                        1.625rem,
+                        calc(-0.5027rem + 10.6383vw),
+                        2.25rem
+                    );
+                }
 
-                // &__contacts {
-                //     font-size: 16px !important;
-                // }
+                &__contacts {
+                    font-size: clamp(
+                        0.875rem,
+                        calc(0.4495rem + 2.1277vw),
+                        1rem
+                    );
+
+                    line-height: clamp(
+                        1rem,
+                        calc(0.3617rem + 3.1915vw),
+                        1.1875rem
+                    );
+                }
             }
 
             &__imgContainer {
@@ -135,16 +154,6 @@
                 height: 36px;
                 width: 36px;
             }
-        }
-    }
-}
-
-@media only screen and (max-width: 392px) {
-    .container {
-        padding: 0 16px;
-
-        .content {
-            width: calc(100% - 32px);
         }
     }
 }
