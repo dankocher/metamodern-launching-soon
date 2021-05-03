@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styles from "./plug.module.scss";
 
 import metemodernIcon from "../../assets/icons/metemodern-icon";
@@ -13,7 +13,7 @@ function Plug() {
             <div className={styles.content}>
                 <div className={styles.content__description}>
                     <span className={styles.content__description__info}>
-                    We will launch soon
+                        We will launch soon
                     </span>
 
                     <div className={styles.content__description__contacts}>
@@ -25,7 +25,7 @@ function Plug() {
                 </div>
 
                 <div className={styles.content__imgContainer}>
-                    <img src={cat} />
+                    <img src={cat} alt={"cat"} />
                 </div>
             </div>
             <div className={styles.container__bottomSpaser} />
