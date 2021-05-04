@@ -25,6 +25,14 @@ body {
         overflow-wrap: break-word;
         white-space: pre-wrap;
     }
+}
 
-
+@media screen and (min-width: 320px) and (max-width: 1000px) and (orientation: landscape) {
+    body {
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
 }

@@ -75,16 +75,16 @@
         }
     }
 
-    & > i {
-        transition: top 150ms, left 150ms;
-        position: absolute;
-        top: 40px;
-        left: 69px;
+    // & > i {
+    //     transition: top 150ms, left 150ms;
+    //     position: absolute;
+    //     top: 40px;
+    //     left: 69px;
 
-        svg {
-            transition: height 150ms, width 150ms;
-        }
-    }
+    //     svg {
+    //         transition: height 150ms, width 150ms;
+    //     }
+    // }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -148,15 +148,15 @@
 }
 
 @media only screen and (max-width: 428px) {
-    .container {
-        & > i {
-            top: 28px;
-            left: 16px;
+    // .container {
+    //     & > i {
+    //         top: 28px;
+    //         left: 16px;
 
-            svg {
-                height: 36px;
-                width: 36px;
-            }
-        }
-    }
+    //         svg {
+    //             height: 36px;
+    //             width: 36px;
+    //         }
+    //     }
+    // }
 }

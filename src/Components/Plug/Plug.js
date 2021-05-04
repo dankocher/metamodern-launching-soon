@@ -1,14 +1,11 @@
 import React from "react";
 import styles from "./plug.module.scss";
 
-import metemodernIcon from "../../assets/icons/metemodern-icon";
-
 import cat from "../../assets/images/problemcat.png";
 
 function Plug() {
     return (
         <div className={styles.container}>
-            <i>{metemodernIcon}</i>
             <div className={styles.container__topSpaser} />
             <div className={styles.content}>
                 <div className={styles.content__description}>
