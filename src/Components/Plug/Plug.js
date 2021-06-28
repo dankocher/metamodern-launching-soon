@@ -13,11 +13,19 @@ function Plug() {
                         We will launch soon
                     </span>
 
-                    <div className={styles.content__description__contacts}>
+                    <div
+                        className={`${styles.content__description__contacts} ${styles.descriptionFont}`}
+                    >
                         <span>Write to us</span>
                         <a href="mailto:metamodernsales@gmail.com">
                             metamodernsales@gmail.com
                         </a>
+                    </div>
+                    <div
+                        className={`${styles.content__description__works} ${styles.descriptionFont}`}
+                    >
+                        <span>Our works: </span>
+                        <a href="https://dribbble.com/metamodern">Dribbble</a>
                     </div>
                 </div>
 

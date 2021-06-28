@@ -1,0 +1,5 @@
+Id,Balance,Amount,Currency,Type,Status,Modified,Trade Id,Instrument Symbol,Instrument Name,Commission
+"297881215","417","-30","dXRP","WITHDRAWAL","DECLINED","2021-05-19 22:31:56","","","","5"
+"297859393","0.49","-2.59","dBYN","EXCHANGE_COMMISSION","PROCESSED","2021-05-19 15:52:05","","","","2"
+"297849659","1300","1300","dBYN","DEPOSIT","PROCESSED","2021-05-19 15:38:48","","","","0"
+"297840844","0","1300","dBYN","DEPOSIT","DECLINED","2021-05-19 15:25:56","","","","0"
