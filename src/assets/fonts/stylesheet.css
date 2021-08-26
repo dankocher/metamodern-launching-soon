@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Gilroy-SemiBold";
-    src: url("Gilroy-SemiBold.ttf") format("truetype");
+    src: url("./Gilroy-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Gilroy-Regular";
-    src: url("Gilroy-Regular.ttf") format("truetype");
+    src: url("./Gilroy-Regular.ttf") format("truetype");
 }
