@@ -33,7 +33,9 @@ function Plug() {
             className={`${styles.content__description__works} ${styles.descriptionFont}`}
           >
             <span>Our works: </span>
-            <a href="https://dribbble.com/metamodern">Dribbble</a>
+            <a href="https://dribbble.com/metamodern" target="_blank">
+              Dribbble
+            </a>
           </div>
         </div>
 
