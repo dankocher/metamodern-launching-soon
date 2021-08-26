@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/metamodern-launching-soon/static/css/main.bdef116d.chunk.css",
+    "main.js": "/metamodern-launching-soon/static/js/main.7bab4c7b.chunk.js",
+    "main.js.map": "/metamodern-launching-soon/static/js/main.7bab4c7b.chunk.js.map",
+    "runtime-main.js": "/metamodern-launching-soon/static/js/runtime-main.c2d177c8.js",
+    "runtime-main.js.map": "/metamodern-launching-soon/static/js/runtime-main.c2d177c8.js.map",
+    "static/js/2.c1b6cbf0.chunk.js": "/metamodern-launching-soon/static/js/2.c1b6cbf0.chunk.js",
+    "static/js/2.c1b6cbf0.chunk.js.map": "/metamodern-launching-soon/static/js/2.c1b6cbf0.chunk.js.map",
+    "index.html": "/metamodern-launching-soon/index.html",
+    "static/css/main.bdef116d.chunk.css.map": "/metamodern-launching-soon/static/css/main.bdef116d.chunk.css.map",
+    "static/js/2.c1b6cbf0.chunk.js.LICENSE.txt": "/metamodern-launching-soon/static/js/2.c1b6cbf0.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/metamodern-launching-soon/static/media/Gilroy-SemiBold.67802926.ttf",
+    "static/media/problemcat.a2288e4c.png": "/metamodern-launching-soon/static/media/problemcat.a2288e4c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2d177c8.js",
+    "static/js/2.c1b6cbf0.chunk.js",
+    "static/css/main.bdef116d.chunk.css",
+    "static/js/main.7bab4c7b.chunk.js"
+  ]
+}
