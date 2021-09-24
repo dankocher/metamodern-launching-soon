@@ -17,9 +17,7 @@ function Plug() {
             className={`${styles.content__description__mail} ${styles.descriptionFont}`}
           >
             <span>Write to us</span>
-            <a href="mailto:metamodernsales@gmail.com">
-              metamodern.dev@gmail.com
-            </a>
+            <a href="metamodern.dev@gmail.com">metamodern.dev@gmail.com</a>
           </div>
 
           <div
